@@ -14,7 +14,7 @@ int main() {
 
     } else if(x > 1 && x <10) {
 
-      y=log(abs(pow(x,2)));
+      y=log(abs(pow(x,3)));
 
     } else if (x <= 0 || x >= 10){
 
