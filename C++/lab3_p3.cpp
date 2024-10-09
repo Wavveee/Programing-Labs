@@ -21,9 +21,9 @@ int main() {
     // відстань від точки до центру кола(у квадраті)
     d=M_x*M_x + M_y*M_y;
 
-    // cout << d;
+    // cout << d << endl;
 
-    if(r1*r1 < d < r2*r2){
+    if(d > r1*r1 && d < r2*r2){
         cout << "point M ("<< M_x <<";"<<" "<< M_y <<") belongs to our figure (ring)";
     }else{
         cout << "point M ("<< M_x <<";"<<" "<< M_y <<") does not belongs to our figure (ring)";
