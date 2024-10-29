@@ -22,17 +22,19 @@ int main() {
  
     x_start= x;
     y_start= y;
-
+    
+    cout << "-- -- -- -- -- -- -- -- --"<<endl;
     while(y>=0.5 && y<=1.5){
         x= x_start;
         while(x>=1 && x<=4){
             z=log(cos(x*y-1)+2);
 
-            cout << setw(5) << fixed << setprecision(2) << x
-                 << setw(10) << fixed << setprecision(2) << y
+            cout << setw(5) << fixed << setprecision(2) << y
+                 << setw(10) << fixed << setprecision(2) << x
                  << setw(10) << fixed << setprecision(2) << z << endl;
             x+=x_step;
         };
+        cout << "-- -- -- -- -- -- -- -- --"<<endl;
         y+=y_step;
     };
 
