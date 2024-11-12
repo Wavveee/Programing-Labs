@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 
-float y_next,y,eps,i,x,n;
+float y_next,y,eps,i=1,x,n;
 
 	cout<<"Enter initial value of 'y'"<<endl;
 	cin>>x;
@@ -27,10 +27,12 @@ float y_next,y,eps,i,x,n;
 			y=y_next;
 
 			y_next=(1.0/n)*(x/pow(y, n-1)+(n-1)*y);
+
+            i++;
 	};
 
     cout<<"the root of " << n <<" power from " << x <<" approximately equal to " << y_next <<endl;
     cout<<"accuracy is "<< eps <<endl;
- 
+    cout<<"кількість ітерацій "<<i<<endl;
 return 0;
 }
