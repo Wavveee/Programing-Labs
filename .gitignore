@@ -1,0 +1,60 @@
+# Компільовані файли (не потрібні у репозиторії)
+*.exe
+*.dll
+*.obj
+*.o
+*.so
+*.dylib
+*.lib
+*.a
+*.exp
+*.pdb
+
+# Файли збірки Visual Studio
+*.idb
+*.ipch
+*.sdf
+*.suo
+*.user
+*.tlog
+*.log
+*.lastbuildstate
+
+# Кеш файли та тимчасові файли
+*.tmp
+*.cache
+*.swp
+*.swn
+*.swo
+*.bak
+*.orig
+
+# Конфігураційні файли Visual Studio
+*.VC.db
+*.VC.opendb
+*.ncb
+
+# Файли CMake, якщо використовуєте CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Каталоги, які не потрібно комітити
+Debug/
+Release/
+x64/
+x86/
+ipch/
+bin/
+obj/
+
+# Файли та папки, специфічні для IDE
+.vscode/
+.idea/
+*.VC.db
+*.VC.opendb
+
+# Системні файли, які можуть з'явитися випадково
+.DS_Store
+Thumbs.db
