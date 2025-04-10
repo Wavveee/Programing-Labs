@@ -19,7 +19,7 @@ int main() {
         int numb{ 0 };
         cin >> numb;
 
-        if (numb > 0 && numb < SIZE) {
+        if (numb > 0 && numb <= SIZE) {
             show_arr(init_arr, numb);
         }
         else {
