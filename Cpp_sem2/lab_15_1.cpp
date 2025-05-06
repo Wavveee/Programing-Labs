@@ -3,8 +3,6 @@
 #include <vector>
 using namespace std;
 
-
-
 struct Student {
     int number;
     string full_name;
