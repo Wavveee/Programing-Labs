@@ -23,7 +23,7 @@ int main() {
         {3, "Заєць О.М.    ", 3, 4, 4, 4},
         {4, "Кравченко З.І.", 3, 5, 4, 5}
     };
-   
+
     display(list);
 
     cout << "число сртування?" << endl;
@@ -35,7 +35,8 @@ int main() {
     sort(list, sorted, condition);
     display(sorted);
 
-
+    int size = sorted.size();
+    cout << "Кількість студентів без " << condition << ": " << size << endl;
 
     return 0;
 }
