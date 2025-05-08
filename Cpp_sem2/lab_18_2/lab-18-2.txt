@@ -1,0 +1,10 @@
+Іванчук С.О.   MathAnalysis: 4, Programing: 3, OS: 3, Algebra: 4
+Панченко І.А.  MathAnalysis: 5, Programing: 4, OS: 4, Algebra: 5
+Заєць О.М.     MathAnalysis: 3, Programing: 4, OS: 4, Algebra: 4
+Кравченко З.І. MathAnalysis: 3, Programing: 5, OS: 4, Algebra: 5
+Мельник Т.Г.   MathAnalysis: 5, Programing: 5, OS: 5, Algebra: 5
+Шевченко Р.В.  MathAnalysis: 4, Programing: 4, OS: 3, Algebra: 4
+Данилюк Л.О.   MathAnalysis: 2, Programing: 3, OS: 3, Algebra: 2
+Бондар О.Є.    MathAnalysis: 4, Programing: 5, OS: 4, Algebra: 5
+Гриценко І.П.  MathAnalysis: 3, Programing: 3, OS: 2, Algebra: 3
+Сидоренко М.Н. MathAnalysis: 5, Programing: 4, OS: 5, Algebra: 4

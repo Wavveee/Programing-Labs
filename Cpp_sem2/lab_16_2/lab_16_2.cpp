@@ -79,14 +79,19 @@ void create_list(vector<Student>& list, string path) {
 
 void filter_list(vector<Student>& list, vector<Student>& filtered, int condition) {
     filtered.clear();
+    int passed = 0;
 
     if (condition > 5 || condition < 1) {
         cout << "please enter a number between 1 and 5." << endl;
     } else {
         for (const auto& s : list) {
-            if (s.mathAnal != condition && s.progr != condition && s.algb != condition && s.os != condition)
+            if (s.mathAnal != condition && s.progr != condition && s.algb != condition && s.os != condition){
                 filtered.push_back(s);
+                passed++;
+            }
         }
+
+        cout << "Passed students: " << passed << endl;
     }
 
 };

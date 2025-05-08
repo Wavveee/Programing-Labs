@@ -1,0 +1,5 @@
+Іванчук С.О.   MathAnalysis: 4, Programing: 3, OS: 3, Algebra: 4
+Заєць О.М.     MathAnalysis: 3, Programing: 4, OS: 4, Algebra: 4
+Шевченко Р.В.  MathAnalysis: 4, Programing: 4, OS: 3, Algebra: 4
+Данилюк Л.О.   MathAnalysis: 2, Programing: 3, OS: 3, Algebra: 2
+Гриценко І.П.  MathAnalysis: 3, Programing: 3, OS: 2, Algebra: 3

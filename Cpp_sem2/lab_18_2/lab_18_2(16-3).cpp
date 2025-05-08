@@ -5,7 +5,13 @@
 #include <algorithm>
 using namespace std;
 
-const string SCORE_F_PATH = "E:\\NUWGP\\Programing\\labs\\Programing-Labs\\Cpp_sem2\\lab_16_3\\lab-16-3.txt";
+class Player {
+public:
+    string name;
+    int score;
+};
+
+const string SCORE_F_PATH = "E:\\NUWGP\\Programing\\labs\\Programing-Labs\\Cpp_sem2\\lab_18_2\\lab-scores.txt";
 
 void play_game(string path);
 void show_player_scores(string path);
@@ -57,26 +63,30 @@ void show_player_scores(string path) {
     file.close();
 };
 
-void find_best(string path){
+void find_best(string path) {
     ifstream file(path);
 
-    string word;
-    int number;
-    vector<pair<int, string>> data; // Зберігаємо: <число, слово>
+    string name;
+    int score;
+    vector<Player> data;
 
-    while (file >> word >> number) {
-        data.push_back({number, word});
+    while (file >> name >> score) {
+        Player Player;
+        Player.name = name;
+        Player.score = score;
+
+        data.push_back(Player);
     }
     file.close();
 
-    // Сортуємо за спаданням
-    sort(data.begin(), data.end(), [](auto& a, auto& b) {
-        return a.first > b.first;
-    });
+    // Сортування за спаданням балів (лямбда-порівняння)
+    sort(data.begin(), data.end(), [](const Player& a, const Player& b) {
+        return a.score > b.score;
+        });
 
     cout << "Top 3 entries:\n";
     for (int i = 0; i < 3 && i < data.size(); ++i) {
-        cout << data[i].second << " " << data[i].first << endl;
+        cout << data[i].name << " " << data[i].score << endl;
     }
 
 }
